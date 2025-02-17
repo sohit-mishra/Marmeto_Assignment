@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Marmeto Cart</title>
+
+</head>
+
+<body>
+    <div class="flex" id="header">
+        <div id="logo">
+            <img src="./assets/logo.svg" alt="Marmeto Logo" />
+            <h1>Marmeto</h1>
+        </div>
+        <div id="nav_links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+        <div id="headerIcon">
+            <a href="#"><img src="./assets/search_icon.svg" alt="Search Icon" /></a>
+            <a href="#"><img src="./assets/wishlist.svg" alt="Wishlist Icon" /></a>
+            <a href="#"><img src="./assets/cart.svg" alt="Cart Icon" /></a>
+        </div>
+    </div>
+
+    <div id="backgroundCart">
+        <div id="box">
+            <img src="./assets/logo.svg" id="backgroundLogo" alt="Marmeto Logo" />
+            <h1>Cart</h1>
+            <div id="backgroundCartFlex">
+                <a href="#">Home</a>
+                <img src="./assets/arrowleft.svg" alt="Arrow_left Icon">
+                <a href="#">Cart</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="cartItemContainer">
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="cartTableBody">
+
+            </tbody>
+        </table>
+        <div id='productCart'>
+        </div>
+
+        <div id="CartTotal">
+            <h1>Cart Totals</h1>
+            <div class="flex">
+                <h3>Subtotal</h3>
+                <h3 id="SubTotal"></h3>
+            </div>
+            <div class="flex">
+                <h3>Total</h3>
+                <h3 id="Total"></h3>
+            </div>
+            <button>Check Out</button>
+        </div>
+    </div>
+
+    <div id="container">
+        <div class="box">
+            <img src="./assets/trophy.svg" alt="Trophy">
+            <div class="left">
+                <h2>High Quality</h2>
+                <h4>crafted from top materials</h4>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./assets/Warranty.svg" alt="Warranty Icon">
+            <div>
+                <h2>Warranty Protection</h2>
+                <h4>Over 2 years</h4>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./assets/shipping.svg" alt="Shipping Icon">
+            <div>
+                <h2>Free Shipping</h2>
+                <h4>Order over 150 $</h4>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./assets/customer-support.svg" alt="Customer Support">
+            <div>
+                <h2>24 / 7 Support</h2>
+                <h4>Dedicated support</h4>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
